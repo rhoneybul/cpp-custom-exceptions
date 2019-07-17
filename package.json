@@ -1,0 +1,21 @@
+{
+  "name": "cpp-custom-exceptions",
+  "version": "1.0.0",
+  "description": "A learning exercise to understand throwing cpp custom exceptions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p build && cd build && /opt/cmake/bin/cmake ..",
+    "start": "cd build && ./cpp_custom_exceptions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhoneybul/cpp-custom-exceptions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhoneybul/cpp-custom-exceptions/issues"
+  },
+  "homepage": "https://github.com/rhoneybul/cpp-custom-exceptions#readme"
+}
