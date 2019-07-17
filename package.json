@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p build && cd build && /opt/cmake/bin/cmake ..",
+    "build": "mkdir -p build && cd build && /opt/cmake/bin/cmake .. && make",
     "start": "cd build && ./cpp_custom_exceptions"
   },
   "repository": {
